@@ -1,0 +1,5 @@
+#!/usr/bin/python
+import datetime
+now = datetime.datetime.now()
+print("Esse cronjob está rodando a cada minuto -- %s"%(now.strftime('%d-%m-%Y %H:%M:%S')))
+#Dá para rodar qualquer comando do python nesse arquivo!

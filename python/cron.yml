@@ -1,0 +1,2 @@
+to build image: docker build -t cron-python .
+to run: docker run -it --name cron-python cron-python
