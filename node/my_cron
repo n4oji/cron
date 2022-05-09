@@ -1,0 +1,5 @@
+const ws = new WebSocket('wss://ws.vozpreta.com.br/occupy');
+
+ws.addEventListener('open', function (event) {
+    console.log('connected');
+});

@@ -1,0 +1,2 @@
+to build image: docker build -t cron-node .
+to run: docker run -it --name cron-node cron-node

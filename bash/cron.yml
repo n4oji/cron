@@ -1,0 +1,2 @@
+to build image: docker build -t cron-bash .
+to run: docker run -it --name cron-bash cron-bash
